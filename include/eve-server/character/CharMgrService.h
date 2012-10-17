@@ -20,7 +20,7 @@
     Place - Suite 330, Boston, MA 02111-1307, USA, or go to
     http://www.gnu.org/copyleft/lesser.txt.
     ------------------------------------------------------------------------------------
-    Author:        Zhur
+    Author:        Zhur, PolarEckon
 */
 
 
@@ -51,6 +51,8 @@ protected:
     PyCallable_DECL_CALL(GetFactions)
     PyCallable_DECL_CALL(SetActivityStatus)
     PyCallable_DECL_CALL(GetSettingsInfo)
+	PyCallable_DECL_CALL(GetCharacterDescription)
+	PyCallable_DECL_CALL(SetCharacterDescription)
 };
 
 #endif
